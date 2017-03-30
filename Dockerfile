@@ -3,8 +3,8 @@ MAINTAINER sameer@damagehead.com
 
 ENV REDMINE_VERSION=3.3.2 \
     REDMINE_USER="xzxpxyjifixamf" \
-    REDMINE_HOME="/home/redmine" \
-    REDMINE_LOG_DIR="/var/log/redmine" \
+    REDMINE_HOME="/home/xzxpxyjifixamf" \
+    REDMINE_LOG_DIR="/var/log/xzxpxyjifixamf" \
     REDMINE_CACHE_DIR="/etc/docker-redmine" \
     RAILS_ENV=production
 
