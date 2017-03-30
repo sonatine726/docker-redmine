@@ -4,6 +4,10 @@ source ${REDMINE_RUNTIME_DIR}/functions
 
 [[ $DEBUG == true ]] && set -x
 
+if [ $# -eq 1 ] && [[ `echo ${1} | grep ' ' ` ]] ; then
+  set -- ${1}
+fi
+
 case ${1} in
   app:init|app:start|app:rake|app:backup:create|app:backup:restore)
 
