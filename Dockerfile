@@ -2,7 +2,7 @@ FROM sameersbn/ubuntu:14.04.20170123
 MAINTAINER sameer@damagehead.com
 
 ENV REDMINE_VERSION=3.3.2 \
-    REDMINE_USER="redmine" \
+    REDMINE_USER="xzxpxyjifixamf" \
     REDMINE_HOME="/home/redmine" \
     REDMINE_LOG_DIR="/var/log/redmine" \
     REDMINE_CACHE_DIR="/etc/docker-redmine" \
