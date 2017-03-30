@@ -4,9 +4,9 @@ services:
   postgresql:
     image: sameersbn/postgresql:9.6-2
     environment:
-    - DB_USER=redmine
-    - DB_PASS=password
-    - DB_NAME=redmine_production
+    - DB_USER=xzxpxyjifixamf
+    - DB_PASS=a1bad016ee628c84bcbbd161f88dedb5887371130cc954f4758b3d2cc2e4f58b
+    - DB_NAME=dbvsmtcog40tga
     volumes:
     - /srv/docker/redmine/postgresql:/var/lib/postgresql
 
@@ -20,9 +20,9 @@ services:
     - DB_ADAPTER=postgresql
     - DB_HOST=postgresql
     - DB_PORT=5432
-    - DB_USER=redmine
-    - DB_PASS=password
-    - DB_NAME=redmine_production
+    - DB_USER=xzxpxyjifixamf
+    - DB_PASS=a1bad016ee628c84bcbbd161f88dedb5887371130cc954f4758b3d2cc2e4f58b
+    - DB_NAME=dbvsmtcog40tga
 
     - REDMINE_PORT=10083
     - REDMINE_HTTPS=false
